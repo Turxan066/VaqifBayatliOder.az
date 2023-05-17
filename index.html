@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Turxan Memmedov">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Free Web tutorials for HTML and CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaqif Bayatli Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+    .swiper {
+        width: 640px;
+        height:438px;
+        display: block;
+    }
+    </style>
+</head>
+<body>
+    <!-- Canvas Start  -->
+        <div class="canvas_mobile show" style="transform: translate(0%, 0%);" id="canvas_mobile">
+            <div class="canvas_mobile_top">
+                <div class="center">
+                    <div class="canvas_container">
+                        <a href="#" class="canvas_logo">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <nav class="navigation_social">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/fb.png" alt="">
+                                        <p>facebook</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/yt.png" alt="">
+                                        <p>youtube</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/tw.png" alt="">
+                                        <p>twitter</p>
+                                    </a>
+                                </li>
+                                <div class="search_lang_menu">
+                                    <a href="#" class="search_icon">
+                                        <img src="images/search.png" alt="">
+                                    </a>
+                                    <div class="lang">
+                                        <span class="aze">aze</span>
+                                        <span class="eng">eng</span>
+                                    </div>
+                                    <div class="menu">
+                                        <span>Menu</span>
+                                        <img src="images/close.png" alt="" id="hideMenu">
+                                    </div>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas_mobile_bottom">
+                <div class="center">
+                    <div class="canvas_menu_container">
+                        <div class="canvas_row">
+                            <div class="canvas_menu_left">
+                                <ul>
+                                    <li><a href="#">Şeirlər</a></li>
+                                    <li><a href="#" class="canvas_active">Məqalələr</a></li>
+                                    <li><a href="#">Tərcümələr</a></li>
+                                    <li><a href="#">Haqqında</a></li>
+                                    <li><a href="#">Müsahibələr</a></li>
+                                </ul>
+                            </div>
+                            <div class="canvas_menu_right">
+                                <ul>
+                                    <li><a href="#">Elektron kitab</a></li>
+                                    <li><a href="#">Videolar</a></li>
+                                    <li><a href="#">Fotolar</a></li>
+                                    <li><a href="#">Təltiflər</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Canvas End -->
+    <!-- Header Start  -->
+        <header>
+            <div class="overlay"></div> 
+            <div class="header_top">
+                <div class="center">
+                    <div class="header_top_content">
+                        <a href="#" class="logo">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <nav class="navigation_social">
+                            <ul>
+                                <li class="socialMedia">
+                                    <a href="#">
+                                        <img src="images/fb.png" alt="">
+                                        <p>facebook</p>
+                                    </a>
+                                </li>
+                                <li class="socialMedia">
+                                    <a href="#">
+                                        <img src="images/yt.png" alt="">
+                                        <p>youtube</p>
+                                    </a>
+                                </li>
+                                <li class="socialMedia">
+                                    <a href="#">
+                                        <img src="images/tw.png" alt="">
+                                        <p>twitter</p>
+                                    </a>
+                                </li>
+                                <li id="searchInput" class="dn">
+                                    <input type="text" placeholder="Axtar....">
+                                </li>
+                                <div class="search_lang_menu">
+                                    <a href="#" class="search_icon" id="searchIcon">
+                                        <img src="images/search.png" alt="">
+                                    </a>
+                                    <div class="lang">
+                                        <span class="aze">aze</span>
+                                        <span class="eng">eng</span>
+                                    </div>
+                                    <div class="menu">
+                                        <span>Menu</span>
+                                        <img src="images/menu.svg" alt="" id="showMenu">
+                                    </div>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="main_image">
+                    <img src="images/Group 4827.png" alt="#">
+                </div>
+            <div class="center">
+                <div class="header_bottom_image_menu">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="swiper">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                  <!-- Slides -->
+                                  <div class="swiper-slide">
+                                    <div class="swiper-wrapper">
+                                  <!-- Slides -->
+                                  <div class="swiper-slide">
+                                    <div class="bottom_image">
+                                        <img src="images//gleb-albovsky-sBO2-mtclIw-unsplash.jpg" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                        <div class="bottom_image">
+                                        <img src="images/pavel-herceg-zWOQD6fFCBs-unsplash.jpg" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="bottom_image">
+                                        <img src="images/raamin-ka-Cxag6Z_s8oI-unsplash.jpg" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="bottom_image">
+                                        <img src="images/mia-baker-ctRgcY-lY8I-unsplash.jpg" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="bottom_image">
+                                        <img src="images/chris-leipelt-9M54sNTIa-4-unsplash.jpg" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="bottom_image">
+                                        <img src="images/kevin-bhagat-3cLpiv8h5so-unsplash.jpg" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <div class="bottom_image">
+                                        <img src="images/canadian girl.png" alt="">
+                                        <div class="image_text_column">
+                                            <span>08 Yanvar 2023 , 13:05</span>
+                                            <p>N.Oliverin müasir qara həyatından bəhs edən rəsmləri kolleksiyaçıları valeh edir - A. Dozier</p>
+                                        </div>
+                                        <div class="image_pagination">
+                                            <span></span>
+                                            <span></span>
+                                            <span class="pagination_active"></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                              
+                                <!-- If we need navigation buttons -->
+                                <!-- <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div> -->
+                              
+                                <!-- If we need scrollbar -->
+                              </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="bottom_menu">
+                                <ul>
+                                    <li><a href="#">Şeirlər</a></li>
+                                    <li><a href="#" class="menu_active">Məqalələr</a></li>
+                                    <li><a href="#">Tərcümələr</a></li>
+                                    <li><a href="#">Haqqında</a></li>
+                                    <li><a href="#">Müsahibələr</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Elektron kitab</a></li>
+                                    <li><a href="#">Videolar</a></li>
+                                    <li><a href="#">Fotolar</a></li>
+                                    <li><a href="#">Təltiflər</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </div>
+        </header>
+    <!-- Header End -->
+
+
+    <!-- Main Start -->
+        <main>
+            <div class="center">
+                <div class="main_row">
+                    <div class="left_col">
+                        <div class="left_container">
+                            <div class="left_box">
+                                <div class="news_container">
+                                    <div class="news_title">Son xəbərlər</div>
+                                    <div class="news_arrow">
+                                        <img src="images/arrow4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Cece Philips-in Sürreal Rəsmlərində Rəngli Qadınlar Gecəni Bərpa edir</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Dünyanın ən qədim İncəsənət Sərgisi olan Art Cologne, təsir edici sənət və sakit atmosferə malikdir</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Çikaqo Qalereyası Səhnəsi Tez-tez Gözdən Çıxarılır - Bu Olmamalıdır</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Bu Qara Tarix Ayını Kəşf Etmək üçün Gözdən Çıxılan 28 Qara Rəssam</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">William Kentridge-in Kömür Çizimləri Afrikanın Müstəmləkə Müqaviməti Tarixini Canlandırır</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Vanguard Spotlight: Salman Toor Muzeyinin Asiyada Mövqe Daşığı</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Cece Philips-in Sürreal Rəsmlərində Rəngli Qadınlar Gecəni Bərpa edir</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Dünyanın ən qədim İncəsənət Sərgisi olan Art Cologne, təsir edici sənət və sakit atmosferə malikdir</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Çikaqo Qalereyası Səhnəsi Tez-tez Gözdən Çıxarılır - Bu Olmamalıdır</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Bu Qara Tarix Ayını Kəşf Etmək üçün Gözdən Çıxılan 28 Qara Rəssam</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">William Kentridge-in Kömür Çizimləri Afrikanın Müstəmləkə Müqaviməti Tarixini Canlandırır</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Vanguard Spotlight: Salman Toor Muzeyinin Asiyada Mövqe Daşığı</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Cece Philips-in Sürreal Rəsmlərində Rəngli Qadınlar Gecəni Bərpa edir</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Dünyanın ən qədim İncəsənət Sərgisi olan Art Cologne, təsir edici sənət və sakit atmosferə malikdir</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Çikaqo Qalereyası Səhnəsi Tez-tez Gözdən Çıxarılır - Bu Olmamalıdır</div>
+                                </div>
+                                <div class="news_date_info">
+                                    <div class="news_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="news_info">Bu Qara Tarix Ayını Kəşf Etmək üçün Gözdən Çıxılan 28 Qara Rəssam</div>
+                                    <div class="news_more">
+                                        <h2>Daha çox</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_col">
+                        <div class="card_container">
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_2.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">Heenang heesoo Kimin neo-modernist portretləri gündəlik həyatın narahatlığını əks etdirir.</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Şeirlər</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_8.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">2022-ci ildə Böyük Qalereyalarda Nümayəndəlik qazanmış 10 Rəssam</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Məqalələr</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_9.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">2022-ci il Mayami İncəsənət Həftəsi Görülməli 10 Şou</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Tərcümələr</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_11.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">Cece Philips-in Sürreal Rəsmlərində Rəngli Qadınlar Gecəni Bərpa edir</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Haqqında</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_12.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">3 Yerli Qalereya vasitəsilə London İncəsənət Səhnəsinə Baxış</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Müsahibələr</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_13.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">Müstəmləkəçilikdən əvvəlki tarixlərə müraciət etmək üçün abstraksiyadan istifadə edən 5 Latın rəssamı</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Videolar</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_12.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">3 Yerli Qalereya vasitəsilə London İncəsənət Səhnəsinə Baxış</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Müsahibələr</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_13.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">Müstəmləkəçilikdən əvvəlki tarixlərə müraciət etmək üçün abstraksiyadan istifadə edən 5 Latın rəssamı</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Videolar</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_2.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">Müstəmləkəçilikdən əvvəlki tarixlərə müraciət etmək üçün abstraksiyadan istifadə edən 5 Latın rəssamı</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Videolar</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card_box">
+                                <div class="card_image">
+                                    <img src="images/Screenshot_8.png" alt="">
+                                </div>
+                                <div class="card_date_info">
+                                    <div class="card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="card_info">Müstəmləkəçilikdən əvvəlki tarixlərə müraciət etmək üçün abstraksiyadan istifadə edən 5 Latın rəssamı</div>
+                                </div>
+                                <div class="card_button">
+                                    <span>Videolar</span>
+                                    <div class="card_yellow_arrow">
+                                        <img src="images/arrowyellow.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_electronics">
+                    <div class="electronics_container">
+                        <div class="electronics_header">
+                            <div class="electronics_title_arrow">
+                                <div class="electronics_title">Elektron kitab</div>
+                                <div class="electronics_arrow">
+                                    <img src="images/arrow4.png" alt="">
+                                </div>
+                            </div>
+                            
+                            <div class="electronics_border_arrow">
+                                <a href="#"><img src="images/arrowleft.svg" alt=""></a>
+                                <a href="#"><img src="images/arrow_right.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="electronics_card_container">
+                            <div class="electronics_card_row">
+                                <div class="electronics_card_col">
+                                    <div class="electro_card_image">
+                                        <img src="images/snimok.png" alt="">
+                                    </div>
+                                    <div class="electro_card_title">Türkün gelişi</div>
+                                    <div class="electro_card_info">Ətrafılı oxu</div>
+                                </div>
+                                <div class="electronics_card_col">
+                                    <div class="electro_card_image">
+                                        <img src="images/1626206169_Huseyn Cavid edebi irsinin poetikasi K.png" alt="">
+                                    </div>
+                                    <div class="electro_card_title">Hüseyn Cavid</div>
+                                    <div class="electro_card_info">Ətrafılı oxu</div>
+                                </div>
+                                <div class="electronics_card_col">
+                                    <div class="electro_card_image">
+                                        <img src="images/1627619787_yurt sevdadi.png" alt="">
+                                    </div>
+                                    <div class="electro_card_title">Yurt sevdasi</div>
+                                    <div class="electro_card_info">Ətrafılı oxu</div>
+                                </div>
+                                <div class="electronics_card_col">
+                                    <div class="electro_card_image">
+                                        <img src="images/1629775740_isik.png" alt="">
+                                    </div>
+                                    <div class="electro_card_title">İşığa giden yol</div>
+                                    <div class="electro_card_info">Ətrafılı oxu</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="electro_card_pagination">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#" class="active"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section_pen">
+                    <div class="pen_container">
+                       <div class="pen_header">
+                            <div class="pen_title">Qələm əhli</div>
+                            <div class="pen_arrow_border">
+                                <a href="#"><img src="images/arrowleft.svg" alt=""></a>
+                                <a href="#"><img src="images/arrow_right.svg" alt=""></a>
+                            </div>
+                       </div>
+                       <div class="pen_card_box">
+                            <div class="pen_card_row">
+                                <div class="pen_card_col">
+                                    <div class="pen_card_image">
+                                        <img src="images/Screenshot_17.png" alt="">
+                                    </div>
+                                    <div class="pen_card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="pen_card_info">Biennale zamanı ziyarət edilməli 20 Venesiya şousu</div>
+                                </div>
+                                <div class="pen_card_col">
+                                    <div class="pen_card_image">
+                                        <img src="images/Screenshot_16.png" alt="">
+                                    </div>
+                                    <div class="pen_card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="pen_card_info">Wendy Red Star Yerli Nümayəndəliyi Şücaətlə Yenidən Kontekstuallaşdırır</div>
+                                </div>
+                                <div class="pen_card_col">
+                                    <div class="pen_card_image">
+                                        <img src="images/Screenshot_18.png" alt="">
+                                    </div>
+                                    <div class="pen_card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="pen_card_info">Zina Saro-Wiwa-nın multimedia sənəti yemək, içki və göz yaşları vasitəsilə tamaşaçılarla əlaqə qurur</div>
+                                </div>
+                                <div class="pen_card_col">
+                                    <div class="pen_card_image">
+                                        <img src="images/Screenshot_15.png" alt="">
+                                    </div>
+                                    <div class="pen_card_date">08 Yanvar 2023 , 13:05</div>
+                                    <div class="pen_card_info">Bazarda: Szabolcs Bozonun oynaq rəsmləri hərracda ciddi məbləğlərə satılır</div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <!-- Main End -->
+
+    <!-- Footer Start  -->
+        <footer>
+           <div class="center">
+                <div class="footer_row">
+                    <div class="ftr_left">
+                        <a href="#" class="footer_logo">
+                            <img src="images/logo@2x.png" alt="">
+                        </a>
+                        <div class="footer_social_icons">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/fb.png" alt="facebook">
+                                        <p>Facebook</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/yt.png" alt="Youtube">
+                                        <p>Youtube</p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/tw.png" alt="Twitter">
+                                        <p>Twitter</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_copyright">© 2022 Sayt.az Müəllif hüquqları qorunur. Məlumatdan istifadə etdikdə istinad mütləqdir. Məlumat internet səhifələrində istifadə edildikdə müvafiq keçidin qoyulması tələb olunur.</div>
+                    </div>
+                    <div class="ftr_right">
+                        <div class="footer_menu_container">
+                            <ul class="ftr_menu">
+                                <li>
+                                    <a href="#">Şeirlər</a>
+                                    <a href="#" class="footer_active">Məqalələr</a>
+                                    <a href="#">Tərcümələr</a>
+                                    <a href="#">Haqqında</a>
+                                    <a href="#">Müsahibələr</a>
+                                </li>
+                            </ul>
+                            <ul class="ftr_menu">
+                                <li>
+                                    <a href="#">Elektron kitab</a>
+                                    <a href="#">Videolar</a>
+                                    <a href="#">Fotolar</a>
+                                    <a href="#">Təltiflər</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </footer>
+    <!-- Footer End -->
+  
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'SFProDisplay'; 
+    src: url('../fonts/subset-SFProDisplay-Bold.eot');
+    src: url('../fonts/subset-SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/subset-SFProDisplay-Bold.woff') format('woff'),
+        url('../fonts/subset-SFProDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/subset-SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/subset-SFProDisplay-Regular.eot');
+    src: url('../fonts/subset-SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/subset-SFProDisplay-Regular.woff') format('woff'),
+        url('../fonts/subset-SFProDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/subset-SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url('../fonts/subset-SFProDisplay-Medium.eot');
+    src: url('../fonts/subset-SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/subset-SFProDisplay-Medium.woff') format('woff'),
+        url('../fonts/subset-SFProDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/subset-SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/subset-PlayfairDisplay-Bold.eot');
+    src: url('../fonts/subset-PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/subset-PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/subset-PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/subset-PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Start  */
+.header_bg{
+    position: relative;
+    width: 100%;
+    height: 104px;
+    padding: 16px 0;
+    background: #3F442F;
+    opacity: 1;
+    z-index: 0;
+    
+}
+.overlay{
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 759px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Laycxcxcxcer\ 0@2x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_top {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #9d9d9d;
+}
+.header_top_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 287px;
+    height: 76px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+}
+.navigation_social ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation_social ul li{
+    list-style-type: none;
+    padding: 0px 16px;
+}
+.navigation_social ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'SFProDisplay';
+    font-weight: 600;
+    line-height: 20px;
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: 0.21px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+.navigation_social ul li a img{
+    width: 100%;
+    height: 100%;
+    margin: 0px 4px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+}
+.search_lang_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search_icon{
+    width: 24px;
+    height: 24px;
+    margin: 0px 32px;
+    display: block;
+}
+.search_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lang .aze{
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.21px;
+    opacity: 1;
+    color: #FFCD01;
+}
+.lang .eng{
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 0px 24px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.21px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    color: #fff;
+    cursor: pointer;
+}
+.lang .eng:hover{
+    color: #FFCD01;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu span{
+    font-family: 'SFProDisplay';
+    font-style: normal;
+    padding: 0px 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.21px;
+    opacity: 1;
+    color: #fff;
+}
+/* Header End */
+
+/* Main Start  */
+    main{
+        width: 100%;
+        display: block;
+    }
+    .poetics_row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 72px;
+    }
+    .poetics_left_col{
+        width: 32%;
+    }
+    .poetics_image{
+        width: 360px;
+        height: 514px;
+        display: block;
+    }
+    .poetics_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        display: block;
+    }
+    .poetics_right_col{
+        width:68%;
+    }
+    .download_right{
+        display: flex;
+        justify-content: space-between;
+    }
+    .download_right_title{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: bold;
+        letter-spacing: 0px;
+        opacity: 1;
+        color: #0E1013;
+    }
+    .download_button{
+        width: 111px;
+        height: 48px;
+        background: #62703A 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        cursor: pointer;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        transition: .2s ease-in-out;
+        -webkit-transition: .2s ease-in-out;
+        -moz-transition: .2s ease-in-out;
+        -ms-transition: .2s ease-in-out;
+        -o-transition: .2s ease-in-out;
+    }
+    .download_button span{
+        color: #fff;
+        margin: 0px 4px;
+    }
+    .download_load{
+        font-family: 'SFProDisplay';
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        letter-spacing: 0.21px;
+        opacity: 1;
+        color: #fff;
+        opacity: 1;
+    }
+     .download_button:hover{
+        background-color:dodgerblue;
+    }
+    .download_author{
+        width: 35%;
+        margin: 24px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .download_author span{
+        font-family: 'SFProDisplay';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+        letter-spacing: 1.6px;
+        opacity: 1;
+        color: #0E1013;
+    }
+    .download_author .down_extra{
+        font-family: 'SFProDisplay';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        opacity: 1;
+        color: #0E1013;
+    }
+    .poetics_download_box{
+        width: 100%;
+        border-bottom: 1px solid #d7d7d7;
+        margin-bottom: 24px;
+    }
+    .poetics_download_txt{
+        font-family: 'SFProDisplay';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0.32px;
+        opacity: 1;
+        color: #0B0C0C;;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+/* Main End */
